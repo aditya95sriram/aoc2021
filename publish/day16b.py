@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
-from functools import reduce
-
-def prod(l):
-    return reduce(lambda a,b: a*b, l, 1)
+from math import prod
 
 def packet(out):
     global totalver

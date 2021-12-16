@@ -16,8 +16,6 @@ def lmapi(*args, **kwargs):
     return list(map(int, *args, **kwargs))
 def enum(*args, **kwargs):
     return enumerate(*args, **kwargs)
-def prod(l):
-    return reduce(lambda a,b: a*b, l, 1)
 
 def solve(input_fname):
     lines = []

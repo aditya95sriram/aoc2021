@@ -9,5 +9,5 @@ Fairly messy and potentially suboptimal solutions to [AOC21](https://adventofcod
 * `cpp` contains cpp solutions (experimental)
 * `inputs` contains the problem inputs
 
-
+> tested on Python 3.8.10
 
